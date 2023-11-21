@@ -1,0 +1,42 @@
+// Chapter 1 Alert
+// An alert is a box that pops up to give the user a message.
+let input = "Thanks for visiting!";
+alert(input);
+
+// Chapter 2 Variables for Strings
+// To create variables we can use var/let.
+
+var name = "Shah Fahad";
+let surName = "Pitafi";
+let education = "intermediate";
+
+// Chapter 3 Variables for Numbers
+var age = 25;
+var height = 5.4;
+var weight = 55;
+// we can also add one var into another
+var newNumber = age + weight;
+
+// Chapter 4 Variable Names Legal and Illegal
+// Variable name can't be started with digit/number.
+// ==============can't contain spaces.
+// ==============can't be any of JavaScript's keywords "alert"
+// A variable name can contain only letters, numbers, dollar signs, and underscores.
+// Capital letters are fine, but be carefull.
+// Camel Case
+    // userResponse
+    // userResponseTime
+    // userResponseTimeLimit
+    // response
+
+let myName = "Shah Fahad";
+let fatherName = "Khair Muhammad";
+let phoneNumber = +923022342034;
+
+// 5 Math expressions: Familiar operators
+let popularNumber = 2*2;
+popularNumber = 12-25;
+let afterYears = 25+50;
+
+// We can also use just variables
+let geniune = (popularNumber * afterYears)
